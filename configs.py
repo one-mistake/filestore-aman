@@ -32,7 +32,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @MrKRNBolte
 
-👥 **Main Channel:** [CW Movies](https://telegram.me/CW_Moviess)
+👥 **Main Channel:** [CW Movies](https://telegram.me/Cw_Botz)
 
 📢 **Updates Channel:** [Hacking Craze](https://telegram.me/CW_Botz)
 """
