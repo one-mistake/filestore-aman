@@ -30,18 +30,18 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @HackingCraze_Papa
+🧑🏻‍💻 **Developer:** @MrKRNBolte
 
-👥 **Support Group:** [Save Restricted Bot](https://telegram.me/SaveRestrictedContent_byTGSBot)
+👥 **Main Channel:** [CW Movies](https://telegram.me/CW_Moviess)
 
-📢 **Updates Channel:** [Hacking Craze](https://telegram.me/HackingCraze24_7d)
+📢 **Updates Channel:** [Hacking Craze](https://telegram.me/CW_Botz)
 """
-	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @HackingCraze_Papa
+	ABOUT_DEV_TEXT = f"""__
+🧑🏻‍💻 **Developer:** @MrKRNBolte
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
+Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.__
 
 """
 	HOME_TEXT = """

@@ -74,8 +74,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Main Channel", url="https://telegram.me/CW_Botz"),
+                        InlineKeyboardButton("Movie Channel", url="https://telegram.me/CW_Moviess")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://telegram.me/HackingCraze24_7d)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Main Channel](https://telegram.me/CW_Botz)",
                                      disable_web_page_preview=True)
             return
 
@@ -148,7 +148,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=HackingCraze_{str_to_b64(file_er_id)}"
+            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=CWBotz_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -350,8 +350,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Main Channel", url="https://telegram.me/CW_Botz"),
+                        InlineKeyboardButton("Movies Channel", url="https://telegram.me/CW_Moviess")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -371,7 +371,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Main Channel](https://telegram.me/CW_Botz).",
                         disable_web_page_preview=True
                     )
                     return
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
+                    text="Something went Wrong. Contact my [Main Channel](https://telegram.me/CW_Botz).",
                     disable_web_page_preview=True
                 )
                 return
@@ -404,8 +404,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Main Channel", url="https://telegram.me/CW_Botz"),
+                        InlineKeyboardButton("Movie Channel", url="https://telegram.me/CW_Moviess")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
